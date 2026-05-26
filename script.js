@@ -141,6 +141,14 @@
 
     btn.addEventListener('click', () => {
       curtain.classList.add('is-open');
+
+    const bgm = document.getElementById('bgm');
+    if (CONFIG.bgm?.enabled && bgm) {
+    bgm.src = CONFIG.bgm.src;
+    bgm.volume = CONFIG.bgm.volume ?? 0.5;
+    bgm.play().catch(() => {});
+  }
+      
       document.body.classList.remove('no-scroll');
       setTimeout(() => {
         curtain.classList.add('is-hidden');
@@ -359,12 +367,12 @@
       <div class="parent-row">
         ${parentLine(g.father, g.mother, g.fatherDeceased, g.motherDeceased)}
         <span class="parent-dot">●</span>
-        의 아들 <span class="child-name">${g.name}</span>
+        의 차남 <span class="child-name">${g.name}</span>
       </div>
       <div class="parent-row">
         ${parentLine(b.father, b.mother, b.fatherDeceased, b.motherDeceased)}
         <span class="parent-dot">●</span>
-        의 딸 <span class="child-name">${b.name}</span>
+        의 차녀 <span class="child-name">${b.name}</span>
       </div>
     `;
 
