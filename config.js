@@ -38,9 +38,9 @@ const CONFIG = {
   wedding: {
     date: "2026-06-20",
     time: "15:00",
-    venue: "서울대 호암교수회관",
-    hall: "무궁화홀",
-    address: "서울특별시 관악구 관악로 1",
+    venue: "서울대 호암교수회관 무궁화홀",
+    hall: "서울특별시 관악구 관악로 1",
+    address: "신랑측 전세버스안내1\n일시 : 2026년6월20(토) 오전 12시 출발1\n장소 : 춘천 온누리교회 주차장",
     mapLinks: {
       kakao: "https://kko.to/HsIC1pfvVG",
       naver: "https://naver.me/xwmq28EX"
