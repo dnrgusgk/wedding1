@@ -40,7 +40,7 @@ const CONFIG = {
     time: "15:00",
     venue: "서울대 호암교수회관 무궁화홀",
     hall: "서울특별시 관악구 관악로 1",
-    address: "신랑측 전세버스안내\n일시 : 2026년6월20(토) 오전 12시 출발\n장소 : 춘천 온누리교회 주차장",
+    address: "신랑측 전세버스\n춘천 온누리교회 12시 출발",
     mapLinks: {
       kakao: "https://kko.to/HsIC1pfvVG",
       naver: "https://naver.me/xwmq28EX"
